@@ -1,0 +1,33 @@
+<div class="row">
+
+   <div class="col-md-6">
+
+      <app-shopping-edit>
+
+      </app-shopping-edit>
+
+   </div>
+
+   <div class="col-md-6">
+
+    <div class="shadow p-4">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+              <ul class="list-group">
+
+                <li *ngFor="let shop of ingredients" class="list-group-item"> {{ shop.name }} ---- {{ shop.amount }} Rupees </li>
+
+              </ul>
+
+            </div>
+
+        </div>
+
+        </div>
+
+   </div>
+
+</div>

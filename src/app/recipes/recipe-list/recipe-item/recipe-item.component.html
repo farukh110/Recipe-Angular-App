@@ -1,0 +1,16 @@
+<div class="row recipe__list mt-md-4 pt-md-3"
+(click)="onSelected()">
+
+      <div class="col-md-8">
+
+          <h4> {{ recipe.name }} </h4>
+          <p> {{ recipe.description }} </p>
+
+      </div>
+      <div class="col-md-4 pb-md-3">
+        <img
+        class="img-fluid"
+        [src]="recipe.imagePath"
+        alt="">
+      </div>
+  </div>
